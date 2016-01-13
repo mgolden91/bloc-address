@@ -124,7 +124,7 @@ class MenuController
     print "Enter CSV file to import: "
     file_name = gets.chomp
 
-    if file_name.empty
+    if file_name.empty?
       system "clear"
       puts "No CSV file read"
       main_menu
